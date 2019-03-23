@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>Another greeting!</p>
+    <h2>Calculator</h2>
+
+    <div class="calculator">
+
+        <div id="display">0</div>
+
+        <button class="func" id="qua">x<sup>2</sup></button>
+        <button class="func" id="expo">2<sup>x</sup></button>
+        <button class="func" id="expo1">10<sup>x</sup></button>
+        <button id="clear">C</button>
+        <button id="toggle">+/-</button>
+        <button id="percent">%</button>
+        <button class="ops" value="/">/</button>
+
+        <button class="func" id="divide">1/x</button>
+        <button class="func" id="sqrt"><sup>2</sup><span>&#8730;</span>x</button>
+        <button class="func" id="ln">ln(x)</button>
+        <button class="num" value="7">7</button>
+        <button class="num" value="8">8</button>
+        <button class="num" value="9">9</button>
+        <button class="ops" value="*">x</button>
+
+        <button class="func ops" value="power">x<sup>y</sup></button>
+        <button class="func ops" value="square"><sup>y</sup><span>&#8730;</span>x</button>
+        <button class="func ops" value="log">log<sub>y</sub>(x)</button>
+        <button class="num" value="4">4</button>
+        <button class="num" value="5">5</button>
+        <button class="num" value="6">6</button>
+        <button class="ops" value="-">-</button>
+
+        <button class="func" id="e_operate">e</button>
+        <button class="func" id="pie">pi</button>
+        <button class="func" id="rand">rand</button>
+        <button class="num" value="1">1</button>
+        <button class="num" value="2">2</button>
+        <button class="num" value="3">3</button>
+        <button class="ops" value="+">+</button>
+
+        <button class="func bottom_left" id="fact">x!</button>
+        <button class="func" id="sum">sum(x)</button>
+        <button class="func" id="prime">prime(x)</button>
+        <button class="num button_long" value="0">0</button>
+        <button id="dot">.</button>
+        <button class="eval bottom_right" id="eval">=</button>
+    </div>
+
+    <script type="text/javascript" src="js.js"></script>
 </body>
 
 </html>
